@@ -1,0 +1,102 @@
+---
+- warning: -Wc++98-compat-pedantic
+  message: extra '' outside of a function is incompatible with C++98
+- warning: -Wextra-semi
+  message: extra '' after member function definition
+- warning: -Wduplicate-decl-specifier
+  message: duplicate '%0' declaration specifier
+- warning: -Wc++98-compat-pedantic
+  message: commas at the end of enumerator lists are incompatible with C++98
+- warning: -Wc++98-compat
+  message: enumeration types with a fixed underlying type are incompatible with
+    C++98
+- warning: -Wc++98-compat
+  message: alignof expressions are incompatible with C++98
+- warning: -Wmicrosoft-exists
+  message: dependent %select{__if_not_exists|__if_exists}0 declarations are ignored
+- warning: -Wgcc-compat
+  message: GCC does not allow %0 attribute in this position on a function definition
+- warning: -Wignored-attributes
+  message: attribute %0 ignored, because it is not attached to a declaration
+- warning: -Wmissing-selector-name
+  message: '%0 used as the name of the previous parameter rather than as part
+    of the selector'
+- warning: -Wc++98-compat
+  message: rvalue references are incompatible with C++98
+- warning: -Wc++98-compat
+  message: reference qualifiers on functions are incompatible with C++98
+- warning: -Wc++98-compat
+  message: inline namespaces are incompatible with C++98
+- warning: -Wc++98-compat
+  message: generalized initializer lists are incompatible with C++98
+- warning: -Wc++98-compat
+  message: trailing return types are incompatible with C++98
+- warning: -Wc++11-compat
+  message: '''auto'' storage class specifier is redundant and incompatible with
+    C++11'
+- warning: -Wc++98-c++11-compat
+  message: '''decltype(auto)'' type specifier is incompatible with C++ standards
+    before C++1y'
+- warning: -Wc++98-compat
+  message: range-based for loop is incompatible with C++98
+- warning: -Wc++98-compat
+  message: '''decltype'' type specifier is incompatible with C++98'
+- warning: -Wdeprecated-register
+  message: '''register'' storage class specifier is deprecated'
+- warning: -Wdeprecated
+  message: Use of 'long' with '__vector' is deprecated
+- warning: -Wc++98-compat
+  message: static_assert declarations are incompatible with C++98
+- warning: -Wdeprecated-declarations
+  message: use of C-style parameters in Objective-C method declarations is deprecated
+- warning: -Warc-bridge-casts-disallowed-in-nonarc
+  message: '''%0'' casts have no effect when not using ARC'
+- warning: -Wsemicolon-before-method-body
+  message: semicolon before method body is ignored
+- warning: -Wdangling-else
+  message: add explicit braces to avoid dangling else
+- warning: -Wc++98-compat
+  message: noexcept specifications are incompatible with C++98
+- warning: -Wc++98-compat
+  message: literal operators are incompatible with C++98
+- warning: -Wc++98-compat
+  message: noexcept expressions are incompatible with C++98
+- warning: -Wc++98-compat
+  message: '''nullptr'' is incompatible with C++98'
+- warning: -Wc++98-compat
+  message: '''alignas'' is incompatible with C++98'
+- warning: -Wc++98-compat
+  message: attributes are incompatible with C++98
+- warning: -Wattributes
+  message: unknown __declspec attribute %0 ignored
+- warning: -Wc++11-compat
+  message: use of right-shift operator ('') in template argument will require
+    parentheses in C++11
+- warning: -Wc++98-compat
+  message: consecutive right angle brackets are incompatible with C++98 (use '
+    ')
+- warning: -Wc++98-compat-pedantic
+  message: extern templates are incompatible with C++98
+- warning: -Wstatic-inline-explicit-instantiation
+  message: ignoring '%select{static|inline}0' keyword on explicit template instantiation
+- warning: -Wc++98-compat
+  message: deleted function definitions are incompatible with C++98
+- warning: -Wc++98-compat
+  message: defaulted function definitions are incompatible with C++98
+- warning: -Wc++98-compat
+  message: in-class initialization of non-static data members is incompatible
+    with C++98
+- warning: -Wc++98-compat
+  message: alias declarations are incompatible with C++98
+- warning: -Wc++98-compat
+  message: '''%0'' keyword is incompatible with C++98'
+- warning: -Wc++98-compat
+  message: scoped enumerations are incompatible with C++98
+- warning: -Wc++98-compat
+  message: lambda expressions are incompatible with C++98
+- warning: -Wavailability
+  message: '''unavailable'' availability overrides all other availability information'
+- warning: -Wsource-uses-openmp
+  message: '"unexpected ''#pragma omp ...'' in program'
+- warning: -Wextra-tokens
+  message: '"extra tokens at the end of ''#pragma omp %0'' are ignored'

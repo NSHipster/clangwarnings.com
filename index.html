@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% for data in site.data %}
+  {% assign section = data[0] %}
+  {% case section %}
+    {% when 'lex' %}
+      {% assign title = "Lexer Warnings" %}
+    {% when 'parse' %}
+      {% assign title = "Parser Warnings" %}
+    {% when 'semantic' %}
+      {% assign title = "Semantic Warnings" %}
+  {% endcase %}
+
+  {% if title %}
+    <section id="{{ section }}">
+      <h1>{{ title }}</h1>
+
+      <table>
+        <thead>
+          <th>Warning</th>
+          <th>Message</th>
+        </thead>
+        <tbody>
+          {% assign entries = data[1] | sort: 'warning' %}
+          {% for entry in entries %}
+            <tr>
+              <td><tt>{{ entry.warning | strip_html }}</tt></td>
+              <td><q>{{ entry.message | strip_html }}</q></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  {% endif %}
+{% endfor %}

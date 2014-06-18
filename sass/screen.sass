@@ -1,0 +1,38 @@
+@import './bourbon/bourbon'
+@import './bitters/bitters'
+@import './neat/neat'
+
+$grid-columns: 10
+$max-width: 100%
+
+$tablet: new-breakpoint(max-width 768px 8)
+$mobile: new-breakpoint(max-width 480px 4)
+
+html, body
+  margin: 0
+
+[role="container"]
+  +outer-container
+
+  width: 80%
+
+header
+  margin-bottom: 3em
+  padding: 2em 0
+  text-align: center
+
+section
+  margin-bottom: 3em
+
+  h1
+    font-size: 1.5em
+
+table
+  th:first-child, td:first-child
+    width: 40%
+
+  tt
+    font-size: 1.25em
+
+footer
+  padding: 1em 0 3em 0

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>{{ site.title }}</title>
+
+  <meta name="description" content=""/>
+  <meta name="author" content="Mattt Thompson"/>
+  <meta name="revisit-after" content="1 month"/>
+  <meta name="viewport" content="width=device-width"/>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@mattt">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+
+  <meta property="og:site_name" content="fuckingclangwarnings.com"/>
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:url" content="{{ site.url }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+
+  <link rel="canonical" href="{{ site.url }}"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"/>
+  <link rel="stylesheet" type="text/css" href="/css/screen.css"/>
+</head>
+
+<body>
+  <div role="container">
+    <header role="banner">
+      <hgroup>
+        <h1 id="logo">{{ site.title }}</h1>
+      </hgroup>
+    </header>
+
+    <div id="main" role="main">
+      {{ content }}
+    </div>
+
+    <footer>
+      <p>Created by <a href="https://twitter.com/mattt" rel="nofollow">Mattt Thompson</a></p>
+    </footer>
+  </div>
+</body>
+</html>
