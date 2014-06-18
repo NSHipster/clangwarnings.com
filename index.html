@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for data in site.data %}
+{% for data in site.data | sort %}
   {% assign section = data[0] %}
   {% case section %}
     {% when 'lex' %}
