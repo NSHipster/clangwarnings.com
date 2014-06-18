@@ -256,6 +256,8 @@ header {
   margin-bottom: 3em;
   padding: 2em 0;
   text-align: center; }
+  header nav {
+    padding-top: 2em; }
 
 section {
   margin-bottom: 3em; }
