@@ -21,7 +21,7 @@
   <meta property="og:description" content="{{ site.description }}"/>
 
   <link rel="canonical" href="{{ site.url }}"/>
-  <link rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"/>
+  <link rel="license" href="http://opensource.org/licenses/NCSA"/>
   <link rel="stylesheet" type="text/css" href="/css/screen.css"/>
 </head>
 
@@ -31,6 +31,10 @@
       <hgroup>
         <h1 id="logo">{{ site.title }}</h1>
       </hgroup>
+
+      <nav>
+        Jump to: <a href="#lex">Lexer</a>, <a href="#parser">Parser</a>, or <a href="#semantic">Semantic</a> Warnings
+      </nav>
     </header>
 
     <div id="main" role="main">
@@ -38,7 +42,11 @@
     </div>
 
     <footer>
-      <p>Created by <a href="https://twitter.com/mattt" rel="nofollow">Mattt Thompson</a></p>
+      <p>Created by <a href="https://twitter.com/mattt" rel="nofollow">Mattt Thompson</a>, and released under the <a href="http://opensource.org/licenses/NCSA" rel="license">NCSA License</a>. Source code <a href="https://github.com/mattt/fuckingclangwarnings.com" rel="nofollow">available on GitHub</a>.</p>
+
+      <p>Generated from <a href="http://clang.llvm.org/get_started.html#build">Clang's source code</a>, through a combination of regular expressions, find &amp; replace, and scripting.</p>
+
+      <p>Last updated <time datetime="{{ site.updated_at }}">{{ site.updated_at | date: "%B %d, %Y" }}</time>.</p>
     </footer>
   </div>
 
