@@ -758,14 +758,14 @@
     first
 - warning: -Wconstant-logical-operand
   message: use of logical '%0' with constant operand
-- warning: -W"bitwise-op-parentheses
+- warning: -Wbitwise-op-parentheses
   message: '''&'' within ''|'''
-- warning: -W"logical-op-parentheses
+- warning: -Wlogical-op-parentheses
   message: '''&&'' within ''||'''
-- warning: -W"overloaded-shift-op-parentheses
+- warning: -Woverloaded-shift-op-parentheses
   message: overloaded operator %select{|}0 has lower precedence than comparison
     operator
-- warning: -W"shift-op-parentheses
+- warning: -Wshift-op-parentheses
   message: operator '%0' has lower precedence than '%1' '%1' will be evaluated
     first
 - warning: -Wself-assign
@@ -785,7 +785,7 @@
   message: extra qualification on member %0
 - warning: -Wdeprecated-writable-strings
   message: dummy warning to enable -fconst-strings
-- warning: -W"missing-declarations
+- warning: -Wmissing-declarations
   message: '''%0'' ignored on this declaration'
 - warning: -Wnull-dereference
   message: indirection of non-volatile null pointer will be deleted, not trap
@@ -808,7 +808,7 @@
 - warning: -Wnull-arithmetic
   message: comparison between NULL and non-pointer %select{(%1 and NULL)|(NULL
     and %1)}0
-- warning: -W"logical-not-parentheses
+- warning: -Wlogical-not-parentheses
   message: logical not is only applied to the left hand side of this comparison
 - warning: -Wc++98-compat
   message: use of non-static data member %0 in an unevaluated context is incompatible
@@ -918,7 +918,7 @@
     load
 - warning: -Wunused-comparison
   message: '%select{equality|inequality}0 comparison result unused'
-- warning: -W"c++-compat
+- warning: -Wc++-compat
   message: '%select{|empty }0%select{struct|union}1 has size 0 in C, %select{size
     1|non-zero size}2 in C++'
 - warning: -Wextern-c-compat
