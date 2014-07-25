@@ -1090,7 +1090,7 @@
   message: second argument to 'va_arg' is of promotable type %0 this va_arg has
     undefined behavior because arguments will be promoted to %1
 - warning: -Wreturn-type
-  message: non-void %select{function|method}1 %0 should return a value", DefaultError
+  message: non-void %select{function|method}1 %0 should return a value, DefaultError
 - warning: -Winvalid-noreturn
   message: function %0 declared 'noreturn' should not return
 - warning: -Winvalid-noreturn
