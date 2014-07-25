@@ -1112,3 +1112,5 @@
   message: instance variable %0 is being directly accessed
 - warning: -Wdocumentation
   message: not a Doxygen trailing comment
+- warning: -Wgnu-conditional-omitted-operand
+  message: use of GNU ?: conditional expression extension, omitting middle operand
