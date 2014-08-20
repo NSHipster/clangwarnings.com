@@ -18,6 +18,8 @@
     is %1
 - warning: -Wvla
   message: variable length array used
+- warning: -Wvla-extension
+  message: variable length arrays are a C99 feature
 - warning: -Winitializer-overrides
   message: subobject initialization overrides initialization of other fields within
     its enclosing subobject
@@ -281,7 +283,7 @@
   message: dependent nested name specifier '%0' for friend template declaration
     is not supported ignoring this friend declaration
 - warning: -Wweak-vtables
-  message: '%0 has no out-of-line virtual method definitions its vtable will be
+  message: '%0 has no out-of-line virtual method definitions; its vtable will be
     emitted in every translation unit'
 - warning: -Wweak-template-vtables
   message: explicit template instantiation %0 will emit a vtable in every translation
@@ -1112,5 +1114,9 @@
   message: instance variable %0 is being directly accessed
 - warning: -Wdocumentation
   message: not a Doxygen trailing comment
+- warning: -Wdocumentation
+  message: parameter '%0' not found in the function declaration
 - warning: -Wgnu-conditional-omitted-operand
   message: "use of GNU ?: conditional expression extension, omitting middle operand"
+- warning: -Wnested-anon-types
+  message: "anonymous types declared in an anonymous union/struct are an extension"
