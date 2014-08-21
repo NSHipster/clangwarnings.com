@@ -25,9 +25,9 @@ layout: default
         <tbody>
           {% assign entries = data[1] | sort: 'warning' %}
           {% for entry in entries %}
-            <tr>
-              <td><tt>{{ entry.warning | strip_html }}</tt></td>
-              <td><q>{{ entry.message | strip_html }}</q></td>
+            <tr itemscope itemtype="http://schema.org/StructuredValue">
+              <td itemprop="name"><tt>{{ entry.warning | strip_html }}</tt></td>
+              <td itemprop="description"><q>{{ entry.message | strip_html }}</q></td>
             </tr>
           {% endfor %}
         </tbody>
