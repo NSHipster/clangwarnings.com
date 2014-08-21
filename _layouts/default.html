@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta http-equiv="last-modified" content="{{ site.time | date: '%A, %d  %Y %H:%M:%S GMT'}}" />
   <title>{{ site.title }}</title>
 
-  <meta name="description" content=""/>
+  <meta name="description" content="Clang warning flags and their associated messages."/>
   <meta name="author" content="Mattt Thompson"/>
-  <meta name="revisit-after" content="1 month"/>
+  <meta name="revisit-after" content="1 week"/>
   <meta name="viewport" content="width=device-width"/>
-  <meta name="last-modified" content="{{ site.updated_at }}">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:creator" content="@mattt">
@@ -49,7 +49,7 @@
 
       <p><em>Like Objective-C and swearing, but can't remember block syntax? <a href="http://fuckingblocksyntax.com">There's a site for that, too</a>.</em></p>
 
-      <p>Last updated <time datetime="{{ site.updated_at }}">{{ site.updated_at | date: "%B %d, %Y" }}</time>.</p>
+      <p>Last updated <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%B %d, %Y" }}</time>.</p>
     </footer>
   </div>
 
