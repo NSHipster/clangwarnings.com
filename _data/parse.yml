@@ -2,7 +2,7 @@
 - warning: -Wc++98-compat-pedantic
   message: extra '' outside of a function is incompatible with C++98
 - warning: -Wextra-semi
-  message: extra '' after member function definition
+  message: extra ';' after member function definition
 - warning: -Wduplicate-decl-specifier
   message: duplicate '%0' declaration specifier
 - warning: -Wc++98-compat-pedantic
@@ -73,8 +73,7 @@
   message: use of right-shift operator ('') in template argument will require
     parentheses in C++11
 - warning: -Wc++98-compat
-  message: consecutive right angle brackets are incompatible with C++98 (use '
-    ')
+  message: consecutive right angle brackets are incompatible with C++98 (use '> >')
 - warning: -Wc++98-compat-pedantic
   message: extern templates are incompatible with C++98
 - warning: -Wstatic-inline-explicit-instantiation

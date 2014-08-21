@@ -64,9 +64,9 @@
 - warning: -W#warnings
   message: '%0'
 - warning: -Wdisabled-macro-expansion
-  message: disabled expansion of recursive macro"
+  message: disabled expansion of recursive macro
 - warning: -Wunused-macros
-  message: macro is not used"
+  message: macro is not used
 - warning: -Wundef
   message: '%0 is not defined, evaluates to 0'
 - warning: -Wambiguous-macro
@@ -84,7 +84,7 @@
 - warning: -Wunknown-pragmas
   message: pragma STDC FENV_ACCESS ON is not supported, ignoring pragma
 - warning: -Winvalid-token-paste
-  message: pasting formed '%0', an invalid preprocessing token", DefaultError
+  message: pasting formed '%0', an invalid preprocessing token, DefaultError
 - warning: -Wc++98-compat-pedantic
   message: '#line number greater than 32767 is incompatible with C++98'
 - warning: -Wignored-attributes
