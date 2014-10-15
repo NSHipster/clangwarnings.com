@@ -1120,3 +1120,5 @@
   message: "use of GNU ?: conditional expression extension, omitting middle operand"
 - warning: -Wnested-anon-types
   message: "anonymous types declared in an anonymous union/struct are an extension"
+- warning: -Wtypedef-redefinition
+  message: Redefinition of typedef '%0' is a C11 feature
