@@ -1118,6 +1118,8 @@
   message: parameter '%0' not found in the function declaration
 - warning: -Wgnu-conditional-omitted-operand
   message: "use of GNU ?: conditional expression extension, omitting middle operand"
+- warning: -Wgnu-statement-expression
+  message: "use of GNU statement expression extension"  
 - warning: -Wnested-anon-types
   message: "anonymous types declared in an anonymous union/struct are an extension"
 - warning: -Wno-typedef-redefinition
