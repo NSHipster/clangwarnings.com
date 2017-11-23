@@ -99,3 +99,5 @@
   message: '"unexpected ''#pragma omp ...'' in program'
 - warning: -Wextra-tokens
   message: '"extra tokens at the end of ''#pragma omp %0'' are ignored'
+- warning: -Wgnu-zero-variadic-macro-arguments
+  message: "token pasting of ',' and __VA_ARGS__ is a GNU extension"
