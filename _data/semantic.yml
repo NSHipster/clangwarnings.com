@@ -20,6 +20,8 @@
   message: variable length array used
 - warning: -Wvla-extension
   message: variable length arrays are a C99 feature
+- warning: -Wincompatible-pointer-types
+  message: Incompatible pointer types sending %0 to parameter of type %1
 - warning: -Winitializer-overrides
   message: subobject initialization overrides initialization of other fields within
     its enclosing subobject
