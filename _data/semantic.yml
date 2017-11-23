@@ -22,6 +22,8 @@
   message: variable length arrays are a C99 feature
 - warning: -Wincompatible-pointer-types
   message: Incompatible pointer types sending %0 to parameter of type %1
+- warning: -Wincompatible-pointer-types-discards-qualifiers
+  message: "passing '%0' to parameter of type '%1' discards qualifiers in nested pointer types"
 - warning: -Winitializer-overrides
   message: subobject initialization overrides initialization of other fields within
     its enclosing subobject
