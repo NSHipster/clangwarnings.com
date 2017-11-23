@@ -1114,6 +1114,8 @@
     type $|does not match super class method parameter type}0,1
 - warning: -Wmissing-method-return-type
   message: method has no return type specified defaults to 'id'
+- warning: -Winconsistent-missing-override
+  message: "'%0' overrides a member function but is not marked 'override'"
 - warning: -Wdirect-ivar-access
   message: instance variable %0 is being directly accessed
 - warning: -Wdocumentation
