@@ -39,23 +39,23 @@ h6 {
 }
 
 h1 {
-    font-size: 2.25em;
-}
-
-h2 {
     font-size: 2em;
 }
 
-h3 {
+h2 {
     font-size: 1.75em;
 }
 
-h4 {
+h3 {
     font-size: 1.5em;
 }
 
-h5 {
+h4 {
     font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1.125em;
 }
 
 h6 {
@@ -82,25 +82,6 @@ a {
     }
 }
 
-hr {
-    border-bottom: 1px solid #dddddd;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin: 1.5em 0;
-}
-
-img {
-    margin: 0;
-    max-width: 100%;
-}
-
-abbr,
-acronym {
-    border-bottom: 1px dotted #dddddd;
-    cursor: help;
-}
-
 table {
     border-collapse: collapse;
     margin: 0.75em 0;
@@ -109,7 +90,7 @@ table {
 }
 
 th {
-    border-bottom: 1px solid #b7b7b7;
+    border-bottom: 2px solid #222;
     font-weight: bold;
     padding: 0.75em 0;
     text-align: left;
@@ -126,25 +107,6 @@ th {
     vertical-align: middle;
 }
 
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-dl {
-    line-height: 1.5em;
-    margin-bottom: 0.75em;
-    dt {
-        font-weight: bold;
-        margin-top: 0.75em;
-    }
-    dd {
-        margin: 0;
-    }
-}
-
 .container {
     max-width: 100%;
     margin-left: auto;
@@ -154,6 +116,12 @@ dl {
         content: "";
         display: table;
         clear: both;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header h1 {
+        font-size: 3vw;
     }
 }
 
@@ -184,6 +152,22 @@ table {
             content: "" !important;
         }
     }
+}
+
+h1 {
+    position: sticky;
+    display: block;
+    top: 0;
+    background: white;
+    padding: 0.25em 0;
+    z-index: 100;
+}
+
+thead th {
+    position: sticky;
+    top: 2em;
+    z-index: 10;
+    background-color: white;
 }
 
 footer {
