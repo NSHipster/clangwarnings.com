@@ -1004,6 +1004,8 @@
   message: no closing ']' for '%%[' in scanf format string
 - warning: -Wnonnull
   message: null passed to a callee which requires a non-null argument
+- warning: -Wnullable-to-nonnull-conversion
+  message: Implict conversion from nullable pointer %0 to non-nullable pointer type %1
 - warning: -Wreturn-stack-address
   message: address of stack memory associated with local variable %0 returned
 - warning: -Wreturn-stack-address
