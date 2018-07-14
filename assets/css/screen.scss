@@ -20,6 +20,8 @@ body {
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    width: 100vw;
+    height: 100vh;
 }
 
 h1,
@@ -66,16 +68,9 @@ a {
 }
 
 .container {
-    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-}
-
-@media screen and (min-width: 700px) {
-    header h1 {
-        font-size: 3vw;
-    }
+    width: 94%;
 }
 
 header {
@@ -117,6 +112,10 @@ table {
     td:first-child {
         font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     }
+    td:last-child {
+        overflow: scroll;
+        line-break: loose;
+    }
 }
 
 section h1 {
@@ -137,6 +136,15 @@ thead th {
 
 footer {
     padding: 1em 0 3em 0;
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        width: 80%;
+    }
+    header h1 {
+        font-size: 3vw;
+    }
 }
 
 @media (prefers-dark-interface) {
