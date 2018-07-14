@@ -4,6 +4,7 @@ body {
     font-size: 1em;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5em;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 h1,
