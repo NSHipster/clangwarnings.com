@@ -10,3 +10,7 @@ exclude:
   - LICENSE
   - README.md
   - Procfile
+
+plugins:
+  - jekyll-assets
+  - jekyll-tidy
