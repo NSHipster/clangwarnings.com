@@ -1,4 +1,8 @@
-Copyright © 2014, Mattt Thompson (http://mattt.me). All rights reserved.
+Copyright © 2014–2018, Mattt (https://mat.tt).
+All rights reserved.
+
+Developed by: Mattt and other contributors
+              https://github.com/nshipster/clangwarnings.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
@@ -12,7 +16,7 @@ list of conditions and the following disclaimers.
 Redistributions in binary form must reproduce the above copyright notice,
 this list of conditions and the following disclaimers in the documentation
 and/or other materials provided with the distribution.
-Neither the names of Mattt Thompson, nor the names of its contributors may be
+Neither the names of Mattt, nor the names of its contributors may be
 used to endorse or promote products derived from this Software without
 specific prior written permission.
 
