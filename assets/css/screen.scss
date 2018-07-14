@@ -61,17 +61,8 @@ p {
 }
 
 a {
-    color: #477dca;
     text-decoration: none;
     transition: color 0.1s linear;
-    &:hover {
-        color: #2c5999;
-    }
-    &:active,
-    &:focus {
-        color: #2c5999;
-        outline: none;
-    }
 }
 
 .container {
