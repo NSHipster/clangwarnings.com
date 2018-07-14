@@ -1,6 +1,6 @@
 {
     "name": "Clang Warnings",
-    "short_name": "Warnings",
+    "short_name": "Clang Warnings",
     "icons": [{
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
