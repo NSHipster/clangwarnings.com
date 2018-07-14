@@ -26,11 +26,6 @@
   [headers.values]
     Content-Type = "application/manifest+json"
 
-[[headers]]
-  for = "/feed.xml"
-  [headers.values]
-    Content-Type = "application/rss+xml"
-
 [[redirects]]
   from = "https://clangwarnings.netlify.com/*"
   to = "https://clangwarnings.com/:splat"
