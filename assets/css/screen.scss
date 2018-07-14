@@ -1,6 +1,4 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -65,8 +63,6 @@ p {
 a {
     color: #477dca;
     text-decoration: none;
-    -webkit-transition: color 0.1s linear;
-    -moz-transition: color 0.1s linear;
     transition: color 0.1s linear;
     &:hover {
         color: #2c5999;
