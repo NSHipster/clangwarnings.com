@@ -70,11 +70,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
 }
 
 @media screen and (min-width: 700px) {
