@@ -1,6 +1,6 @@
-url: "https://clangwarnings.com"
-title: "Clang Warnings"
-description: "A list of Clang warnings and their descriptions."
+url: https://clangwarnings.com
+title: Clang Warnings
+description: A list of Clang warnings and their descriptions.
 
 include:
   - .well-known
