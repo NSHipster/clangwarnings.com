@@ -137,7 +137,7 @@ table {
     }
 }
 
-h1 {
+section h1 {
     position: sticky;
     display: block;
     top: 0;
@@ -155,4 +155,15 @@ thead th {
 
 footer {
     padding: 1em 0 3em 0;
+}
+
+@media (prefers-dark-interface) {
+    body {
+        background: #222 !important;
+        color: #fff !important;
+    }
+    thead th,
+    section h1 {
+        background: #222 !important;
+    }
 }
