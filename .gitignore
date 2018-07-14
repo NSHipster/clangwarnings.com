@@ -1,2 +1,5 @@
-_site/CNAME
 _site
+.sass-cache
+.vscode
+.jekyll-cache
+.jekyll-metadata
