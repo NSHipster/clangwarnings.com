@@ -23,11 +23,6 @@ body {
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
-code,
-tt {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 h1,
 h2,
 h3,
@@ -82,31 +77,6 @@ a {
     }
 }
 
-table {
-    border-collapse: collapse;
-    margin: 0.75em 0;
-    table-layout: fixed;
-    width: 100%;
-}
-
-th {
-    border-bottom: 2px solid #222;
-    font-weight: bold;
-    padding: 0.75em 0;
-    text-align: left;
-}
-
-td {
-    border-bottom: 1px solid #dddddd;
-    padding: 0.75em 0;
-}
-
-tr,
-td,
-th {
-    vertical-align: middle;
-}
-
 .container {
     max-width: 100%;
     margin-left: auto;
@@ -142,15 +112,27 @@ section {
 }
 
 table {
-    th:first-child,
-    td:first-child {
-        width: 40%;
+    border-collapse: collapse;
+    margin: 0.75em 0;
+    width: 100%;
+    table-layout: fixed;
+    th {
+        border-bottom: 2px solid #222;
+        font-weight: bold;
+        padding: 0.75em 0;
+        text-align: left;
     }
-    q {
-        &:before,
-        &:after {
-            content: "" !important;
-        }
+    td {
+        border-bottom: 1px solid #dddddd;
+        padding: 0.75em 0;
+    }
+    tr,
+    td,
+    th {
+        vertical-align: middle;
+    }
+    td:first-child {
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     }
 }
 
